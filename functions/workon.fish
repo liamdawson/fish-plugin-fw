@@ -1,3 +1,7 @@
+function __fw_projects
+  fw -q ls
+end
+
 function workon
   set -l script (fw -q gen-workon $argv)
 

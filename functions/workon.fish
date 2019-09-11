@@ -7,3 +7,5 @@ function workon
     printf "$script\n"
   end
 end
+
+complete -c workon -f -xa "(__fw_projects)"

@@ -7,3 +7,5 @@ function nworkon
     printf "$script\n"
   end
 end
+
+complete -c nworkon -f -xa "(__fw_projects)"
